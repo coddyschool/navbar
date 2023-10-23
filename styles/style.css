@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0px auto;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: yellow;
+}
+ul{
+    display: flex;
+    list-style: none;
+    color: white;
+    gap: 40px;
+}
+h1{
+    background-color: crimson;
+    padding: 10px;
+    color:white;
+    text-transform: uppercase;
+}
